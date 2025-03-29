@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-content {
+  margin: 2rem;
+  padding: 2rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  max-width: 800px;
+}
+
+.tech-stack {
+  margin-top: 2rem;
+  text-align: left;
+}
+
+.tech-stack ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.tech-stack li {
+  margin: 1rem 0;
+  padding: 0.5rem;
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 4px;
+}
