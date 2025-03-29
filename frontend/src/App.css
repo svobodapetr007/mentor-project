@@ -1,39 +1,76 @@
 .App {
   text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding: 20px 0;
   color: white;
 }
 
 .App-content {
-  margin: 2rem;
-  padding: 2rem;
-  background-color: rgba(255, 255, 255, 0.1);
-  border-radius: 8px;
-  max-width: 800px;
+  flex: 1;
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.welcome-container {
+  margin-bottom: 30px;
 }
 
 .tech-stack {
-  margin-top: 2rem;
-  text-align: left;
+  margin-top: 30px;
 }
 
 .tech-stack ul {
-  list-style-type: none;
+  list-style: none;
   padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
 
 .tech-stack li {
-  margin: 1rem 0;
-  padding: 0.5rem;
-  background-color: rgba(255, 255, 255, 0.05);
+  background-color: #f8f9fa;
+  padding: 8px 16px;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.register-button {
+  margin-top: 20px;
+  padding: 12px 24px;
+  background-color: #0077cc;
+  color: white;
+  border: none;
   border-radius: 4px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.register-button:hover {
+  background-color: #005fa3;
+}
+
+.back-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #6c757d;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+  background-color: #5a6268;
 }
